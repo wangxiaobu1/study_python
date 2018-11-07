@@ -4,9 +4,11 @@
 """
 可变长度的参数
 *args 用来将参数打包成tuple给函数体调用
-      1参数打包成tuple -->
-      2tuple解包成参数
+      1.参数打包成tuple
+      2.tuple解包成参数
 **kwargs 打包关键字参数成dict给函数体调用
+      1.参数打包成dict
+      2.dict解包成参数
 使用顺序some_func(fargs, *args, **kwargs)
 """
 
